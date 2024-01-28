@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cuda-pmpp"
+description = "CUDA Play"
+version = "0.0.1"
+dependencies = [
+    "torch",
+    "torchvision"
+]
