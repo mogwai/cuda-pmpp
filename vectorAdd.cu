@@ -44,8 +44,6 @@ void vecadd(float *A, float* B, float* C, int n ) {
 	cudaFree(C_d);
 }
 
-
-
 int main(int argc, char** argv) {
     // Define vector size
     int n = 1000;
